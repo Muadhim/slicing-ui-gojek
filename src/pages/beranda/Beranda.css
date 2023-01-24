@@ -1,0 +1,135 @@
+.beranda {
+    background-image: url("../../img/pexels-abhishek-saini-2929412.jpg");
+    height: 940px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -380px;
+    position: relative;
+}
+.title-header{
+    font-size: 30pt;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+}
+.content {
+    position: absolute;
+    top: 940px;
+    background-color: rgb(16, 24, 32);
+    color: white;
+    width: 100%;
+    
+}
+.content h2{
+    margin-top: 120px;
+    display: block;
+    text-align: center;
+    font-size: 32pt;
+}
+
+.gabung-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(0,136,13);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 800;
+    font-size: 12pt;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-info{
+    width: 100%;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    margin-top: 200px;
+}
+.card-info h3{
+    color: black;
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+}
+.center-list-card{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.card-list {
+    display: flex;
+    margin-bottom: 100px;
+}
+.style-card {
+    color: black;
+    width: 280px;
+    padding: 40px;
+    border-radius: 40px;
+    margin: 20px;  
+}
+.card-color1 {
+    background-color: #b2e5b8;
+    box-shadow: 0px 0px 32px 10px #b2e5b8;
+} 
+.card-color2 {
+    background-color: #d0b4d4;
+    box-shadow: 0px 0px 32px 10px #d0b4d4;
+} 
+.card-color3 {
+    background-color: #fac9a6;
+    box-shadow: 0px 0px 32px 10px #fac9a6;
+} 
+.card-color4 {
+    background-color: #b2e6f2;
+    box-shadow: 0px 0px 32px 10px #b2e6f2;
+} 
+.style-img {
+    width: 100px;
+    margin-top: -120px;
+    margin-left: -70px;
+    margin-bottom: 70px;
+}
+.style-header {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.style-body {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.style-card-animated {
+    color: black;
+    width: 280px;
+    padding: 40px;
+    border-radius: 40px;
+    margin: 20px;  
+    margin-top: -80px;  
+}
+.style-img-animated {
+    width: 100px;
+    margin-top: -120px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.style-header-animated {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.style-body-animated {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
